@@ -110,4 +110,3 @@ for (; i < 3; i++) {
   // no need for "start"
   alert(i); // 0, 1, 2
 }
-
