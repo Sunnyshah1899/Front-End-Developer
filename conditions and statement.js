@@ -19,7 +19,7 @@ else{console.log('loser')}
 const score = 150
 if(score > 200){console.log("first answer has wrong")}
 else if(score > 10000 ){console.log('second answer has wrong')}
-else{console.log('you "fail" because your upto both two answer have wrong')}
+else{console.log('you "fail" because your upto both two answers has wrong')}
 
 //nested if else statement
 //syntex
@@ -197,7 +197,7 @@ console.log(call)
     case 'nokia':
     case 'blackberry':
     default:
-        console.log('samsung s20 fe 5g smartphone, he told me that is phone good camara')
+        console.log('we not need default value you forgot to type "break after case"');
         break;}
 // you can show that break automatically stop when code block but your matched value and default value show same time 
 //     
@@ -219,12 +219,15 @@ console.log(call)
  }
     
  //interview question
- 
- let age = 15;
- if(age>=18){console.log('you are eligible for vote')}
- else{console.log('you are not eligible to vote yet')};
+ //thats a shortcut where used in the job workplace, its may be asked questions in an interview.
 
- //similiar but little bit different if...else
- let voterage = 18
- let de = (voterage>=18)?"you are eligible to vote":"you are not eligible"
- console.log(de);
+
+adultage = 18
+adultage < 18 ? console.log('adulthood starts from 18'):console.log('you are baby boy under 18');
+// parenthesis for a condition, curley braces for condition of body, 'if' 'else' character, these things are not required upto, thats a method used in the workplace
+// to create more shortcut, its may get harder to understand for new people
+// condition ? body : body
+// condition ? condition ? body : body} : body ****************** nested method
+
+nest = 500
+nest > 250 ? (nest > 1000 ? console.log('nested failed') : console.log('nested passed') ) : console.log('nested totally failed');
