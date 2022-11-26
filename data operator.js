@@ -12,9 +12,7 @@ console.log(c-b);
 console.log(c*b);
 console.log(c**b);
 
-console.log(c);
-console.log(c++);
-console.log(c);
+
 
 console.log(++c);
 console.log(c);
